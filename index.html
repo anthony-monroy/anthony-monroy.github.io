@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <title>Anthony Monroy · Chief AI Officer & Enterprise AI Architect</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Anthony Monroy — Chief AI Officer, Enterprise AI Architect, Auditor, and Executive Advisor. 20+ years leading enterprise data modernization, generative AI platforms, and $1B+ cloud transformation strategies.">
+<meta name="description" content="Anthony Monroy — Chief AI Officer, Enterprise Deeptech Architect, AI Risk Auditor, and Executive Advisor. 20+ years leading enterprise data modernization, generative AI platforms, and $1B+ cloud transformation strategies.">
 <meta name="author" content="Anthony Monroy">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Anthony Monroy · Chief AI Officer & Enterprise AI Architect">
-<meta property="og:description" content="Enterprise AI Architect, Auditor, and Executive Advisor. Multi-agent generative AI systems, $1B+ TCV cloud strategy, and AI governance.">
+<meta property="og:description" content="Enterprise Deeptech Architect, AI Risk Auditor, and Executive Advisor. Multi-agent generative AI systems, $1B+ TCV cloud strategy, and AI governance.">
 
 <style>
 html{-webkit-text-size-adjust:100%}
@@ -210,7 +210,7 @@ h1, h2, h3, h4 {
 }
 .hero .wrap {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 250px;
+  grid-template-columns: minmax(0, 1fr) 275px;
   gap: clamp(28px, 5vw, 56px);
   align-items: start;
 }
@@ -252,13 +252,13 @@ h1, h2, h3, h4 {
   justify-content: flex-start;
 }
 .hero-photo {
-  width: 104px;
-  height: 104px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--accent-soft);
   background: var(--surface-raised);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 .hero-photo img {
   width: 100%;
@@ -573,12 +573,23 @@ footer .mono {
 
 /* Scanner-Friendly Print & PDF Export Rules */
 @media print {
+  *, *::before, *::after {
+    color: #000000 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
   body {
     background: #ffffff !important;
     color: #000000 !important;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
-    font-size: 10.5pt !important;
+    font-size: 10pt !important;
     line-height: 1.4 !important;
+  }
+  h1, h2, h3, h4, h5, h6, p, span, div, li, strong, b, dt, dd, a, article, section, em, i, .lead, .val, .item-tagline, .count, .eyebrow, .item-meta, .item-date, .item-location, .item-company, .tag {
+    color: #000000 !important;
+    opacity: 1 !important;
   }
   .top, .theme-btn, .hero-actions, .copy-btn, footer {
     display: none !important;
@@ -600,13 +611,16 @@ footer .mono {
   }
   .ledger {
     background: #ffffff !important;
-    border-block: 1pt solid #333333 !important;
+    border-block: 1pt solid #000000 !important;
     padding-block: 8pt !important;
   }
   .ledger .wrap {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 12pt !important;
+  }
+  .ledger dt, .ledger dd {
+    color: #000000 !important;
   }
   .sec-head {
     border-bottom: 1.5pt solid #000000 !important;
@@ -615,17 +629,27 @@ footer .mono {
   }
   .item {
     page-break-inside: avoid;
-    padding-block: 10pt !important;
-    border-bottom: 0.5pt solid #cccccc !important;
+    padding-block: 8pt !important;
+    border-bottom: 0.5pt solid #444444 !important;
   }
   a {
     color: #000000 !important;
     text-decoration: none !important;
   }
   .tag {
-    background: #f2f2f2 !important;
+    background: #f0f0f0 !important;
     color: #000000 !important;
-    border: 0.5pt solid #cccccc !important;
+    border: 0.5pt solid #666666 !important;
+    padding: 2pt 5pt !important;
+    font-size: 8.5pt !important;
+  }
+  .card-box {
+    border: 1pt solid #000000 !important;
+    background: #ffffff !important;
+    page-break-inside: avoid;
+  }
+  .card-box p, .card-box h3, .card-box li {
+    color: #000000 !important;
   }
 }
 </style>
@@ -661,7 +685,7 @@ footer .mono {
       <h1>Anthony Monroy</h1>
       <div class="role">Chief AI Officer · Enterprise AI Architect · Executive Advisor</div>
       <p class="lead">
-        Enterprise AI Architect, Auditor, and Executive Advisor with 20+ years of experience leading complex data modernization programs, multi-agent generative AI platform architectures, and C-suite digital transformations. Advisor to Fortune 500 leadership on AI operating models, human-AI collaboration frameworks, and foundation model selection across AWS Bedrock, Azure AI, and GCP Vertex AI.
+        Enterprise Deeptech Architect, AI Risk Auditor, and Executive Advisor with 20+ years of experience leading complex data modernization programs, multi-agent generative AI platform architectures, and C-suite digital transformations. Advisor to enterprise leadership on AI operating models, human-AI collaboration frameworks, and model selection across AWS Bedrock, Azure AI, and GCP Vertex AI.
       </p>
       <p class="lead" style="font-size: 16.5px; margin-top: 14px; color: var(--muted);">
         Thank you for your interest. Learn more about me and connect <a href="https://www.linkedin.com/in/anthony-monroy/" target="_blank" rel="noopener">on Linkedin</a>.
@@ -671,7 +695,7 @@ footer .mono {
     <aside class="hero-card">
       <div class="hero-photo-wrap">
         <div class="hero-photo">
-          <img src="am-round.png" alt="Anthony Monroy" width="104" height="104">
+          <img src="am-round.png" alt="Anthony Monroy" width="130" height="130">
         </div>
       </div>
       <dl class="hero-meta">
@@ -686,7 +710,7 @@ footer .mono {
       </dl>
       <div class="hero-actions">
         <a href="#contact" class="btn btn-primary">Initiate Contact</a>
-        <a href="Anthony-Monroy-Executive-CV.docx" class="btn" download>Download CV (DOCX)</a>
+        <a href="Anthony-Monroy-CV.docx" class="btn" download>Download CV (DOCX)</a>
         <button type="button" class="btn" onclick="window.print()">Print / Export PDF</button>
       </div>
     </aside>
@@ -1009,8 +1033,8 @@ footer .mono {
       <div class="c-item">
         <dt>Direct Messaging</dt>
         <dd>
-          <div class="val">WApp @amoftx key 5402</div>
-          <span style="font-size: 13px; opacity: 0.8;">WhatsApp / Encrypted Messaging · Houston, TX</span>
+          <div class="val">@amoftx key 5402</div>
+          <span style="font-size: 13px; opacity: 0.8;">Encrypted Messaging · Houston, TX</span>
         </dd>
       </div>
     </div>
