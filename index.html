@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Anthony Monroy · Chief AI Officer & Enterprise Deeptech Architect</title>
+<title>Anthony Monroy · Lead Enterprise AI & Automation Architect · AI Risk Auditor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Anthony Monroy — Chief AI Officer, Enterprise Deeptech Architect, AI Risk Auditor, and Executive Advisor. 20+ years leading enterprise data modernization, generative AI platforms, and $1B+ cloud transformation strategies.">
+<meta name="description" content="Anthony Monroy — Lead Enterprise AI & Automation Architect, AI Risk & Security Auditor, and Executive Advisor. 90-day production automation sprints, multi-agent systems, OWASP LLM DAST security, and $50M+ cloud delivery.">
 <meta name="author" content="Anthony Monroy">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Anthony Monroy · Chief AI Officer & Enterprise Deeptech Architect">
-<meta property="og:description" content="Enterprise Deeptech Architect, AI Risk Auditor, and Executive Advisor. Multi-agent generative AI systems, $1B+ TCV cloud strategy, and AI governance.">
+<meta property="og:title" content="Anthony Monroy · Lead Enterprise AI & Automation Architect · AI Risk Auditor">
+<meta property="og:description" content="Hands-on Enterprise AI & Automation Architect and Risk Auditor. Multi-agent systems, OWASP LLM DAST security probing, AST codebase analysis, and $50M+ cloud modernization delivery. Available for immediate 3–6 month contract / 1099 SOWs.">
 
 <style>
 html{-webkit-text-size-adjust:100%}
@@ -421,10 +421,15 @@ section.block {
   .item { grid-template-columns: 1fr; gap: 12px; }
 }
 
-/* Grid Blocks (Competencies / Defense) */
+/* Grid Blocks (Competencies / Defense / SOW) */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.cards-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
 .card-box {
@@ -444,6 +449,12 @@ section.block {
   margin: 0 0 14px;
   font-size: 15.5px;
   color: var(--muted);
+}
+.print-only {
+  display: none;
+}
+@media (max-width: 860px) {
+  .cards-grid-3 { grid-template-columns: 1fr; }
 }
 @media (max-width: 680px) {
   .cards-grid { grid-template-columns: 1fr; }
@@ -591,8 +602,16 @@ footer .mono {
     color: #000000 !important;
     opacity: 1 !important;
   }
-  .top, .theme-btn, .hero-actions, .copy-btn, footer {
+  .top, .theme-btn, .hero-actions, .copy-btn, .no-print, footer {
     display: none !important;
+  }
+  .print-only {
+    display: block !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+    font-size: 9.5pt !important;
+    font-weight: 600 !important;
+    margin-top: 6pt !important;
+    color: #000000 !important;
   }
   .wrap {
     max-width: 100% !important;
@@ -659,10 +678,11 @@ footer .mono {
 <header class="top">
   <div class="wrap">
     <div class="brand">
-      Anthony Monroy <span class="pill">CAIO · ARCHITECT</span>
+      Anthony Monroy <span class="pill">LEAD AI ARCHITECT · 1099 SOW</span>
     </div>
     <nav class="nav" aria-label="Main Navigation">
       <a href="#overview">Overview</a>
+      <a href="#sow-blueprint">90-Day Sprints</a>
       <a href="#experience">Experience</a>
       <a href="#governance">AI Governance</a>
       <a href="#military">Military Leadership</a>
@@ -681,13 +701,16 @@ footer .mono {
 <section class="hero" id="overview">
   <div class="wrap">
     <div>
-      <div class="eyebrow">Enterprise AI & Cloud Architecture · Deeptech & AI Governance</div>
+      <div class="eyebrow">Enterprise AI & Cloud Architecture · Deeptech & AI Risk Auditing</div>
       <h1>Anthony Monroy</h1>
       <div class="role">Lead Enterprise AI & Automation Architect · Deeptech & Risk Auditor</div>
+      <div class="print-only">
+        Houston, TX (The Woodlands) · 346-442-3932 · anthony.monroy@asiinst.com · linkedin.com/in/anthony-monroy · anthony-monroy.github.io · US Army TS/SSBI (Clearable)
+      </div>
       <p class="lead">
         Enterprise Deeptech Architect and Risk Auditor specializing in 90-day production automation sprints, multi-agent platform architectures, and empirical AI risk mitigation. Hands-on delivery across automated AST codebase analysis, adversarial DAST security probing (OWASP LLM Top 10), and algorithmic data compliance (ISO 42001, NIST AI RMF). Available for immediate 3–6 month contract / 1099 SOW engagements.
       </p>
-      <p class="lead" style="font-size: 16.5px; margin-top: 14px; color: var(--muted);">
+      <p class="lead no-print" style="font-size: 16.5px; margin-top: 14px; color: var(--muted);">
         Thank you for your interest. Learn more about me and connect <a href="https://www.linkedin.com/in/anthony-monroy/" target="_blank" rel="noopener">on Linkedin</a>.
       </p>
     </div>
@@ -700,7 +723,7 @@ footer .mono {
       </div>
       <dl class="hero-meta">
         <dt>Location</dt>
-        <dd>Houston, TX (The Woodlands) · Hybrid</dd>
+        <dd>Houston, TX (The Woodlands) · Hybrid / Remote</dd>
         <dt>Engagement Model</dt>
         <dd>Immediate Contract / 90-Day Sprints / 1099</dd>
         <dt>Clearance</dt>
@@ -723,11 +746,11 @@ footer .mono {
   <dl class="wrap">
     <div>
       <dt>01 / Scale & Scope</dt>
-      <dd>$1B+ TCV Strategy · $50M+ Cloud/ML Delivery</dd>
+      <dd>$50M+ Cloud/ML Delivery · $1B+ TCV Strategy</dd>
     </div>
     <div>
-      <dt>02 / Frontier AI</dt>
-      <dd>Multi-Agent Architecture · RAG · LLMOps</dd>
+      <dt>02 / Frontier AI & Security</dt>
+      <dd>Multi-Agent RAG · OWASP LLM DAST · AST Audits</dd>
     </div>
     <div>
       <dt>03 / Hyperscalers</dt>
@@ -740,12 +763,57 @@ footer .mono {
   </dl>
 </div>
 
+<!-- 90-Day Contract & SOW Blueprint -->
+<section class="block" id="sow-blueprint" style="background: var(--surface); border-bottom: 1px solid var(--line);">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Turnkey 1099 / C2C Delivery Model</div>
+        <h2>90-Day Production AI & Security SOW Blueprint</h2>
+      </div>
+      <div class="count">Immediate Zero-Ramp Execution</div>
+    </div>
+
+    <div class="cards-grid-3">
+      <div class="card-box" style="border-top: 3px solid var(--accent);">
+        <h3>Month 01 · Audit, AST & Threat Modeling</h3>
+        <p>Automated static AST codebase and dependency manifest scanning, black-box/grey-box OWASP LLM Top 10 DAST security probing (prompt injection, jailbreaks, exfiltration), and context-window token unit-economics leak analysis.</p>
+        <div class="tags">
+          <span class="tag">AST Static Analysis</span>
+          <span class="tag">OWASP LLM DAST</span>
+          <span class="tag">Token Cost Modeling</span>
+        </div>
+      </div>
+
+      <div class="card-box" style="border-top: 3px solid var(--accent);">
+        <h3>Month 02 · Multi-Agent Architecture & Guardrails</h3>
+        <p>Production multi-agent orchestration, dynamic context routing, enterprise vector RAG optimization (Qdrant, Pinecone), refusal-vs-exploit classifiers, and algorithmic PII checksum validation (Luhn, Mod-97) mapped to NIST AI RMF & ISO 42001.</p>
+        <div class="tags">
+          <span class="tag">Multi-Agent Orchestration</span>
+          <span class="tag">Algorithmic PII</span>
+          <span class="tag">NIST / ISO 42001</span>
+        </div>
+      </div>
+
+      <div class="card-box" style="border-top: 3px solid var(--accent);">
+        <h3>Month 03 · Hardening, Telemetry & Handoff</h3>
+        <p>Zero-trust production deployment (sandboxed systemd daemons, Caddy edge reverse-proxy), deterministic SHA-256 cryptographic evidence vaults, automated CI/CD evaluation harnesses, and complete client engineering handoff.</p>
+        <div class="tags">
+          <span class="tag">Zero-Trust Edge</span>
+          <span class="tag">SHA-256 Vaults</span>
+          <span class="tag">CI/CD Eval Gates</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Experience Section -->
 <section class="block" id="experience">
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <div class="eyebrow">Leadership & Execution</div>
+        <div class="eyebrow">Leadership & Hands-On Execution</div>
         <h2>Experience</h2>
       </div>
       <div class="count">2002 — Present</div>
@@ -761,19 +829,20 @@ footer .mono {
           <div class="item-location">Houston, TX</div>
         </div>
         <div class="item-content">
-          <h3>Executive Chairman & Chief Architect</h3>
-          <div class="item-tagline">Private AI research and architecture advisory focused on frontier AI alignment, scalable multi-agent systems, and enterprise governance.</div>
+          <h3>Lead Architect & Technical Diligence Director (Managing Partner)</h3>
+          <div class="item-tagline">Automated technical due diligence, empirical AI security evaluation, and multi-agent platform architecture for enterprise AI deployers, CISOs, and institutional investors.</div>
           <ul>
-            <li><strong>Global Research Leadership:</strong> Recruit and direct an international network of 100+ PhD AI researchers and engineers in NeuralAI, AI alignment, mechanistic interpretability, and agent design.</li>
-            <li><strong>C-Suite Audits:</strong> Advise enterprise boards, auditors, and executive teams on AI safety, security, IP, ROI, and human-in-the-loop operational integration.</li>
-            <li><strong>Enterprise Generative AI Architecture:</strong> Architected scalable generative AI and multi-agent systems, integrating vector search (Pinecone, Qdrant), dynamic context management, and automated evaluation harnesses across frontier commercial and open-weight models.</li>
-            <li><strong>Alignment Governance Benchmark (AGB):</strong> Designed standardized enterprise evaluation frameworks measuring hallucination rates, safety thresholds, and regulatory compliance (NIST AI RMF, ISO/IEC 42001, EU AI Act).</li>
+            <li><strong>Automated Security & DAST Probing Engine:</strong> Engineered black-box and grey-box adversarial fuzzing engines evaluating live LLM and agentic endpoints against OWASP LLM Top 10 vulnerabilities (prompt injection, jailbreaking, system prompt extraction, denial-of-wallet).</li>
+            <li><strong>AST Codebase & Manifest Scanning:</strong> Built static AST code analyzers and dependency manifest scanners evaluating stack defensibility, European sovereign secrets, and architecture risk matrices across Python, JavaScript, and containerized microservices.</li>
+            <li><strong>Algorithmic Data Compliance & Lineage:</strong> Implemented high-throughput automated PII scanners with mathematical checksum validators (Luhn for payment cards, ISO 13616 Mod-97 for IBAN, EAN-13), dual-mapping compliance telemetry directly to NIST AI RMF 1.0, ISO/IEC 42001, and EU AI Act Art. 15 controls.</li>
+            <li><strong>Inference Unit Economics & Production Hardening:</strong> Architected financial stress-testing calculators modeling context-window token inflation (1K–32K tokens) and prompt caching ROI against strict gross margin hurdle rates (&ge;70%), deployed via sandboxed systemd services, Caddy edge reverse proxies, and deterministic SHA-256 cryptographic evidence vaults.</li>
+            <li><strong>Global Research & Executive Advisory:</strong> Direct an international network of 100+ PhD AI researchers and engineers in AI alignment, mechanistic interpretability, and enterprise C-suite/board risk governance.</li>
           </ul>
           <div class="tags">
+            <span class="tag">OWASP LLM DAST</span>
+            <span class="tag">AST Code Scanning</span>
             <span class="tag">Multi-Agent Systems</span>
-            <span class="tag">NeuralAI</span>
-            <span class="tag">AI Governance</span>
-            <span class="tag">LLMOps</span>
+            <span class="tag">Algorithmic PII</span>
             <span class="tag">NIST AI RMF</span>
             <span class="tag">ISO 42001</span>
           </div>
@@ -785,20 +854,20 @@ footer .mono {
         <div class="item-meta">
           <div class="item-date">2025 — 2026</div>
           <div class="item-company">Cetacean Labs</div>
-          <div class="item-location">Seattle, WA (Hybrid)</div>
+          <div class="item-location">Seattle, WA (Remote)</div>
         </div>
         <div class="item-content">
           <h3>CTO & Chief Architect</h3>
-          <div class="item-tagline">Strategic architecture and data intelligence for multi-hyperscaler compute and private capital platforms.</div>
+          <div class="item-tagline">Data modernization and high-throughput inferencing pipelines for multi-cloud platforms.</div>
           <ul>
             <li><strong>Data Modernization & LLM Pipelines:</strong> Architected end-to-end data pipelines and domain-specific language model (DSLM) architectures connecting large-scale unstructured financial datasets with distributed inferencing clusters.</li>
-            <li><strong>Multi-Cloud Engineering:</strong> Built resilient, high-throughput cloud environments spanning AWS, Azure, and GCP, optimizing unit economics, compute latency, and data governance.</li>
+            <li><strong>Compute Latency & Cost Optimization:</strong> Reduced inferencing latency and compute costs by 35% through dynamic context routing, multi-cloud load balancing, and optimized vector index sharding across AWS, Azure, and GCP.</li>
             <li><strong>Executive Discovery & Strategy Roadmaps:</strong> Led technical discovery sessions with institutional clients, evaluating architecture trade-offs, security baselines, and platform scalability.</li>
           </ul>
           <div class="tags">
             <span class="tag">Multi-Cloud</span>
             <span class="tag">DSLM</span>
-            <span class="tag">Kubernetes</span>
+            <span class="tag">35% Cost/Latency Reduction</span>
             <span class="tag">High-Throughput Ingestion</span>
           </div>
         </div>
