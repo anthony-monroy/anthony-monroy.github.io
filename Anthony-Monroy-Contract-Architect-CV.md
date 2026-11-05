@@ -1,5 +1,5 @@
 # ANTHONY MONROY
-### SUBTITLE: Lead Enterprise AI & Automation Architect | AI Risk, Security & Multi-Agent Delivery (Contract / 1099)
+### SUBTITLE: Enterprise AI Architect: Deeptech Automation & AI Risk Auditor (Contract / 1099)
 Houston, TX (The Woodlands) | 346-442-3932 | anthony.monroy@asiinst.com | linkedin.com/in/anthony-monroy | anthony-monroy.github.io
 
 ## PROFESSIONAL SUMMARY
@@ -13,7 +13,7 @@ Hands-on Enterprise AI and Automation Architect with 20+ years of technical lead
 
 ## PROFESSIONAL EXPERIENCE
 
-### Lead Architect & Diligence Director
+### Chief Architect & Principal AI Risk Auditor
 **Aligned Institute (Technical Due Diligence Platform) | Houston, TX | Feb 2021 – Present**
 *Automated technical due diligence and empirical AI security evaluation platform for enterprise AI deployers, CISOs, and institutional investors.*
 - **Automated Security & DAST Probing Engine:** Engineered black-box and grey-box adversarial fuzzing engines evaluating live LLM/chat endpoints against OWASP LLM Top 10 vulnerabilities (prompt injection, jailbreaking, system prompt extraction, denial-of-wallet).
